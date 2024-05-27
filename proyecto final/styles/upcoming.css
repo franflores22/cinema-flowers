@@ -1,0 +1,46 @@
+#navbarNavDropdown {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  list-style: none;
+}
+
+.nav-link {
+  padding: 15px;
+  text-align: center;
+  font-size: 22px;
+  text-decoration: none;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-shadow: 2px 2px 3px red;
+}
+
+body {
+  background-color: black;
+}
+
+.pelis-info {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-shadow: 3px 2px 3px rgb(255, 0, 0);
+}
+
+.pelis-imgs {
+  border-style: groove;
+  border-color: red;
+  display: table-caption;
+}
+
+footer {
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  border: 10px;
+  border-color: rgb(158, 13, 13);
+  border-style: ridge;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  font-weight: 700;
+}
