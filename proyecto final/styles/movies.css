@@ -17,6 +17,7 @@
 
 body {
   background-color: black;
+
 }
 
 .pelis-info {
@@ -31,6 +32,10 @@ body {
   border-style: groove;
   border-color: red;
   display: table-caption;
+  transition: transform 0.5s ease;
+}
+.pelis-imgs:hover{
+  transform: scale(1.2);
 }
 
 footer {
@@ -44,6 +49,6 @@ footer {
   font-size: 30px;
   font-weight: 700;
 }
-hr{
+hr {
   color: white;
 }
