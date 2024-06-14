@@ -1,30 +1,6 @@
-#navbarNavDropdown {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  list-style: none;
-}
-
-.nav-link {
-  padding: 15px;
-  text-align: center;
-  font-size: 22px;
-  text-decoration: none;
-  color: white;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  text-shadow: 1px 1px 3px rgb(255, 255, 255);
-}
-
-body {
-  background-color: black;
-}
-
 .container {
   margin-bottom: 12px;
   color: white;
-  display: flex;
-  width: 100%;
-  justify-content: space-evenly;
   font-size: 45px;
   text-shadow: 2px 2px 3px red;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
@@ -35,39 +11,59 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.ubi-container img {
+  border-radius: 18px;
   transition: transform 0.5s ease;
 }
 
-.ubi-container:hover {
+.ubi-container img:hover {
   transform: scale(1.05);
 }
 
-footer {
-  color: white;
+.contact {
   display: flex;
-  justify-content: space-evenly;
-  border: 10px;
-  border-color: rgb(158, 13, 13);
-  border-style: ridge;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 30px;
-  font-weight: 700;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.contact-title {
+.contact-info {
+  width: 100%;
+}
+
+.cine-photo {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cine-photo img {
+  border-radius: 18px;
+}
+
+.contact-info p {
   text-align: center;
 }
 
-hr {
-  color: white;
+.location-title {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 45px;
+}
+
+.contact-title {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 45px;
 }
 
 p {
   color: rgb(255, 255, 255);
   text-shadow: 2px 0px 1px white;
   text-align: center;
-  display: flex;
-  justify-content: baseline;
   font-size: 25px;
 }
 
@@ -78,11 +74,7 @@ p {
 /*# sourceMappingURL=contact.css.map */
 
 @media screen and (max-width: 991px) {
-  .container {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
+  .cine-photo {
+    display: none;
   }
 }
-

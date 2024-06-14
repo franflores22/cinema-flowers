@@ -1,24 +1,3 @@
-#navbarNavDropdown {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  list-style: none;
-}
-
-.nav-link {
-  padding: 15px;
-  text-align: center;
-  font-size: 22px;
-  text-decoration: none;
-  color: white;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  text-shadow: 1px 1px 3px rgb(255, 255, 255);
-}
-
-body {
-  background-color: black;
-}
-
 .container {
   margin-bottom: 12px;
   color: white;
@@ -42,24 +21,8 @@ body {
   transform: scale(1.05);
 }
 
-footer {
-  color: white;
-  display: flex;
-  justify-content: space-evenly;
-  border: 10px;
-  border-color: rgb(158, 13, 13);
-  border-style: ridge;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 30px;
-  font-weight: 700;
-}
-
 .contact-title {
   text-align: center;
-}
-
-hr {
-  color: white;
 }
 
 p {

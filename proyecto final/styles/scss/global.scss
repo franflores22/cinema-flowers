@@ -16,13 +16,24 @@
 }
 
 body {
-  background-color: black !important;
+  background-color: black;
 }
 
-.logo {
-  text-align: center;
+footer {
+  color: white;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  border: 10px;
+  border-color: rgb(158, 13, 13);
+  border-style: ridge;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  font-weight: 700;
 }
 
-.video {
-  text-align: center;
+hr {
+  color: white;
 }
