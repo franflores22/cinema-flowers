@@ -73,8 +73,3 @@ p {
 
 /*# sourceMappingURL=contact.css.map */
 
-@media screen and (max-width: 991px) {
-  .cine-photo {
-    display: none;
-  }
-}
